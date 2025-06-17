@@ -1,0 +1,69 @@
+body {
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background: linear-gradient(90deg,rgba(87, 199, 133, 1) 0%, rgba(191, 33, 33, 1) 0%, rgba(124, 27, 25, 1) 49%, rgba(18, 17, 13, 1) 100%, rgba(237, 221, 83, 1) 100%, rgba(10, 10, 10, 1) 100%);
+  width: 400px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+input {
+  width: 80%;
+  padding: 5px;
+}
+button {
+  padding: 6px 12px;
+  margin-top: 5px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  color: black;
+  background: #eee;
+  padding: 6px;
+  margin: 4px 0;
+}
+span {
+  font-size: 9px;
+}
+
+#list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#list li span {
+  flex-grow: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Styling the remove button */
+.remove-btn {
+  background-color: #f44336;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.remove-btn:hover {
+  background-color: #d32f2f;
+}
+
+.remove-btn:focus {
+  outline: none;
+}

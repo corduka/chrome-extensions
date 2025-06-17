@@ -1,0 +1,102 @@
+/* Modern Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f9fafc, #e6ecf0);
+  color: #333;
+  min-width: 300px;
+  max-width: 320px;
+}
+
+.card {
+  padding: 20px;
+  margin: 10px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.word-block {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.label {
+  font-weight: 600;
+  color: #555;
+  margin-right: 6px;
+}
+
+#spanish-word,
+#english-word {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 5px rgba(0, 123, 255, 0.2);
+}
+
+button:hover {
+  background: #0056b3;
+  transform: translateY(-1px);
+}
+
+.history-list {
+  list-style: none;
+  padding-left: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.history-list.show {
+  display: block;
+}
+
+.history-list li {
+  padding: 6px 10px;
+  background: #f1f3f6;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.history-list li:hover {
+  background: #e2e6ea;
+}
+
+span {
+  padding: 4px;
+  font-size: 9px;
+}

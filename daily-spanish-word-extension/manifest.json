@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Spanish Word",
+  "version": "1.0",
+  "description": "Learn one new Spanish word every day with translation and example sentence.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://random-word-api.herokuapp.com/",
+    "https://libretranslate.de/*"
+  ]
+}

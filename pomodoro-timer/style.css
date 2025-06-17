@@ -1,0 +1,30 @@
+body {
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(87, 199, 133, 1) 0%,
+    rgba(191, 33, 33, 1) 0%,
+    rgba(124, 27, 25, 1) 49%,
+    rgba(18, 17, 13, 1) 100%,
+    rgba(237, 221, 83, 1) 100%,
+    rgba(10, 10, 10, 1) 100%
+  );
+  width: 400px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#timer {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  width: 60px;
+  cursor: pointer;
+}

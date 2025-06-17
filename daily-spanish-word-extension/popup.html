@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Daily Spanish Word</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>🇪🇸 Daily Spanish Word</h1>
+
+      <div class="word-block">
+        <p>
+          <span class="label">Spanish:</span> <span id="spanish-word">...</span>
+        </p>
+        <p>
+          <span class="label">English:</span> <span id="english-word">...</span>
+        </p>
+      </div>
+
+      <div class="buttons">
+        <button id="pronounce-btn">🔊 Hear</button>
+        <button id="new-word-btn">🔄 New Word</button>
+        <button id="history-btn">📜 Show History</button>
+      </div>
+
+      <ul id="history-list" class="history-list"></ul>
+    </div>
+    <span>Made by Corduka™</span>
+    <script src="popup.js"></script>
+  </body>
+</html>
