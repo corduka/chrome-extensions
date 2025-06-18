@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "JS Flashcards",
+  "name": "JavaScript Flashcards",
   "description": "Learn JavaScript concepts with interactive flashcards.",
   "version": "1.0",
   "action": {
