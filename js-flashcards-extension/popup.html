@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Flashcards</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="category" class="tag"></div>
+
+    <div class="card" id="flashcard">
+      <div class="front" id="question">Loading...</div>
+      <div class="back hidden" id="answer"></div>
+    </div>
+
+    <div class="buttons">
+      <button id="prev">&#8880; Prev</button>
+      <button id="flip">&#8799; Flip</button>
+      <button id="next">Next &#8881;</button>
+    </div>
+
+    <script src="flashcards.js"></script>
+    <script src="popup.js"></script>
+    <img src="./icon128.png" id="imageLogo" />
+    <span>Developed by Corduka™</span>
+  </body>
+</html>

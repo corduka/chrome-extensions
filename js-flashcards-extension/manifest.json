@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "JS Flashcards",
+  "description": "Learn JavaScript concepts with interactive flashcards.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  },
+  "permissions": []
+}
