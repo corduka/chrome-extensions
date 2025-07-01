@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Corduka Todo List",
+  "version": "1.0",
+  "description": "A beautiful todo list with localStorage.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "128": "icon128.png"
+  }
+}
